@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# NASA React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that interacts with NASA's APIs to display various space-related data, including images, astronomical data, and more.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+The NASA React App is designed to provide users with a seamless experience to explore and discover space-related information through the NASA APIs. The app includes features like the Astronomy Picture of the Day (APOD), Mars Rover Photos, and other NASA datasets.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Astronomy Picture of the Day (APOD):** View daily images provided by NASA along with descriptions.
+- **Mars Rover Photos:** Browse photos taken by rovers on Mars.
+- **Search Functionality:** Search for images and data based on various criteria.
+- **Responsive Design:** Works on both desktop and mobile devices.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Follow these steps to set up the project locally.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- [Node.js](https://nodejs.org/) (v12 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Steps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/nasa-react-app.git
+    cd nasa-react-app
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install the dependencies:
+    ```sh
+    npm install
+    ```
+   
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To start the development server, run:
+```sh
+npm start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+credentials
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+    username: vijay
+    password: password456
